@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-paper-Scissor Game</title>
+    <link rel="stylesheet" href="Rps.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <h3>ROCK-PAPER-SCISSOR GAME</h3>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="rock.png" alt="Rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="paper.png" alt="Paper">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="scissor.png" alt="Scissors">
+        </div>
+    </div>
+    <div class="scoreBoard">
+        <div class="score">
+            <p>YOU</p>
+            <p id="your-score">0</p>
+        </div>
+        <div class="vsicon"><img id="vs" src="vs icon.png" alt="VS"></div>
+        <div class="score">
+            <p>COMP</p>
+            <p id="comp-score">0</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+    <button class="resetbtn">Reset</button>
+    <p id="selected">Your choice and computer choice</p>
+
+    <script src="Rps.js"></script>  
+</body>
+</html>

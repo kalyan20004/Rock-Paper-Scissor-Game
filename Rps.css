@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: black;
+    background-color: azure;
+}
+h3 {
+    text-align: center;
+    background-color:purple;
+    height: 30px;
+    padding-top: 2px;
+}
+.choice{
+    height: 50px;
+    width: 80px;
+  border-radius: 50%;
+  border-color: purple;
+  border-width: 20px;
+  position: relative;
+  left: 160px;
+}
+.choice:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    border-color: blue;
+}
+#rock {
+    height: 60px;
+    width: 60px; 
+}
+#paper {
+    height: 60px;
+    width: 60px; 
+}
+#scissors{
+    height: 60px;
+    width: 60px;
+}
+img {
+    height: 55px;
+    width: 55px;
+     border-radius: 50%;
+}
+.choices {
+   display: flex;
+   position: relative;
+   top: 30px;
+   gap: 3rem;
+}
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+   text-align: center;
+    position: relative;
+    top:50px;
+}
+.msg-container{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: 200px;
+}
+#msg {
+    background-color:gold;
+    color: rgb(7, 37, 63);
+    display: inline;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+}
+#you {
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.resetbtn {
+    text-align: center;
+    color: white;
+    background-color:darkred;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+.vsicon {
+    height: 60px;
+    width: 60px;
+}
+#selected {
+    position: relative;
+    left: 170px;
+    bottom: 150px;
+    font-weight: bold;
+}
